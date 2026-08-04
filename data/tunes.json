@@ -1,0 +1,368 @@
+[
+  {
+    "id": "king-of-the-fairies",
+    "title": "King of the Fairies",
+    "aliases": [
+      "King",
+      "The King of Fairies"
+    ],
+    "type": "Hornpipe",
+    "bpm": 130,
+    "audio": "audio/king-of-the-fairies-trad.mp3"
+  },
+  {
+    "id": "the-blackbird",
+    "title": "The Blackbird",
+    "aliases": [
+      "Blackbird"
+    ],
+    "type": "Hornpipe",
+    "bpm": 146,
+    "audio": "audio/the-blackbird-trad.mp3"
+  },
+  {
+    "id": "the-sweets-of-may",
+    "title": "The Sweets of May",
+    "aliases": [
+      "Sweets of May"
+    ],
+    "type": "Jig",
+    "bpm": 116,
+    "audio": "audio/the-sweets-of-may.mp3"
+  },
+  {
+    "id": "garden-of-daisies",
+    "title": "Garden of Daisies",
+    "aliases": [
+      "Garden"
+    ],
+    "type": "Hornpipe",
+    "bpm": 138,
+    "audio": "audio/Garden-of-Daisies-138.mp3"
+  },
+  {
+    "id": "job-of-journey-work",
+    "title": "Job of Journeywork",
+    "aliases": [
+      "Job"
+    ],
+    "type": "Hornpipe",
+    "bpm": 138,
+    "audio": "audio/Job-of-Journey-Work-138.mp3"
+  },
+  {
+    "id": "jockey-to-the-fair",
+    "title": "Jockey to the Fair",
+    "aliases": [
+      "Jockey"
+    ],
+    "type": "Jig",
+    "bpm": 92,
+    "audio": "audio/Jockey-to-the-Fair-92.mp3"
+  },
+  {
+    "id": "st-patricks-day",
+    "title": "St. Patrick's Day",
+    "aliases": [
+      "Patricks Day",
+      "St Patrick's Day",
+      "Saint Patricks Day",
+      "Saint Patrick's Day",
+      "St. Patricks Day"
+    ],
+    "type": "Jig",
+    "bpm": 92,
+    "audio": "audio/St-Patricks-Day-92.mp3"
+  },
+  {
+    "id": "the-hunt",
+    "title": "The Hunt",
+    "aliases": [
+      "Hunt"
+    ],
+    "type": "Hornpipe",
+    "bpm": 130,
+    "audio": "audio/the-hunt-130.mp3"
+  },
+  {
+    "id": "the-white-blanket",
+    "title": "White Blanket",
+    "aliases": [
+      "The White Blanket"
+    ],
+    "type": "Hornpipe",
+    "bpm": 130,
+    "audio": "audio/The-white-blanket-130.mp3"
+  },
+  {
+    "id": "three-sea-captains",
+    "title": "Three Sea Captains",
+    "aliases": [
+      "Three Seas"
+    ],
+    "type": "Jig",
+    "bpm": 96,
+    "audio": "audio/Three-Sea-Captains-96.mp3"
+  },
+  {
+    "id": "humours-of-bandon",
+    "title": "Humours of Bandon",
+    "aliases": [
+      "Humours"
+    ],
+    "type": "Jig",
+    "bpm": 113,
+    "audio": "audio/Humours-of-Bandon-113.mp3"
+  },
+  {
+    "id": "ace-deuce",
+    "title": "Ace & Deuce of Pipering",
+    "aliases": [
+      "Ace and Deuce"
+    ],
+    "modern": true,
+    "lead":12,
+    "set":12,
+    "type": "Hornpipe",
+    "bpm": 109,
+    "audio": "audio/A&D-109.mp3"
+  },
+  {
+    "id": "downfall-of-paris",
+    "title": "Downfall of Paris",
+    "aliases": [
+      "Downfall"
+    ],
+    "modern": true,
+    "lead":8,
+    "set":16,
+    "type": "Hornpipe",
+    "bpm": 108,
+    "audio": "audio/downfall-of-paris-108.mp3"
+  },
+  {
+    "id": "kilkenny-races",
+    "title": "Kilkenny Races",
+    "aliases": [
+      "Kilkenny"
+    ],
+    "modern": true,
+    "lead":8,
+    "set":24,
+    "type": "Hornpipe",
+    "bpm": 106,
+    "audio": "audio/kilkenny-106.mp3"
+  },
+  {
+    "id": "the-piper",
+    "title": "The Piper",
+    "aliases": [
+      "Piper",
+      "Piper through the meadow straying"
+    ],
+    "modern": true,
+    "lead":8,
+    "set":12,
+    "type": "Hornpipe",
+    "bpm": 102,
+    "audio": "audio/piper-102.mp3"
+  },
+  {
+    "id": "planxty-davis",
+    "title": "Planxty Davis",
+    "aliases": [
+      "Davis"
+    ],
+    "modern": true,
+    "lead":16,
+    "set":16,
+    "type": "Hornpipe",
+    "bpm": 76,
+    "audio": "audio/davis-76.mp3"
+  },
+  {
+    "id": "youghal-harbour",
+    "title": "Youghal Harbour",
+    "aliases": [
+      "Youghal"
+    ],
+    "modern": true,
+    "lead":6,
+    "set":14,
+    "type": "Hornpipe",
+    "bpm": 110,
+    "audio": "audio/youghal-110.mp3"
+  },
+  {
+    "id": "blackthorn-stick",
+    "title": "Blackthorn Stick",
+    "aliases": [
+      "Blackthorn"
+    ],
+    "modern": true,
+    "lead":15,
+    "set":15,
+    "type": "Jig",
+    "bpm": 69,
+    "audio": "audio/blackthorn-69.mp3"
+  },
+  {
+    "id": "planxty-drury",
+    "title": "Planxty Drury",
+    "aliases": [
+      "Drury"
+    ],
+    "modern": true,
+    "lead":12,
+    "set":16,
+    "type": "Jig",
+    "bpm": 70,
+    "audio": "audio/drury-70.mp3"
+  },
+  {
+    "id": "planxty-hugh",
+    "title": "Planxty Hugh O'Donnell",
+    "aliases": [
+      "Planxty Hugh",
+      "Hugh",
+      "Hugh ODonnell",
+      "Planxty Hugh O Donnell",
+      "Planxty Hugh ODonnell"
+    ],
+    "modern": true,
+    "lead":16,
+    "set":16,
+    "type": "Jig",
+    "bpm": 70,
+    "audio": "audio/hugh-70.mp3"
+  },
+  {
+    "id": "rub-the-bag",
+    "title": "Rub the Bag",
+    "aliases": [
+      "Rub"
+    ],
+    "modern": true,
+    "lead":8,
+    "set":14,
+    "type": "Jig",
+    "bpm": 69,
+    "audio": "audio/rub-the-bag-69.mp3"
+  },
+  {
+    "id": "orange-rogue",
+    "title": "Orange Rogue",
+    "aliases": [
+      "Orange"
+    ],
+    "modern": true,
+    "lead":8,
+    "set":14,
+    "type": "Jig",
+    "bpm": 71,
+    "audio": "audio/orange-71.mp3"
+  },
+  {
+    "id": "cadens-smile",
+    "title": "Caden's Smile",
+    "aliases": [
+      "Cadens Smile",
+      "Cadens",
+      "Caden's"
+    ],
+    "modern": false,
+    "type": "Reel",
+    "bpm": 113,
+    "audio": "audio/cadens-smile.mp3"
+  },
+  {
+    "id": "pick-the-lock",
+    "title": "Pick the Lock",
+    "aliases": [
+      "Pick"
+    ],
+    "modern": false,
+    "type": "Slip Jig",
+    "bpm": 113,
+    "audio": "audio/pick-the-lock.mp3"
+  },
+  {
+    "id": "glasgow-reel",
+    "title": "Glasgow Reel",
+    "aliases": [
+      "Glasgow"
+    ],
+    "modern": false,
+    "type": "Reel",
+    "bpm": 113,
+    "audio": "audio/glasgow-reel.mp3"
+  },
+  {
+    "id": "vanishing-lake",
+    "title": "Vanishing Lake",
+    "aliases": [
+      "Vanishing"
+    ],
+    "modern": true,
+    "type": "Jig",
+    "bpm": 69,
+    "audio": "audio/vanishing-lake.mp3"
+  },
+  {
+    "id": "reel-around-the-sun",
+    "title": "Reel Around the Sun",
+    "aliases": [
+      "Reel around"
+    ],
+    "modern": false,
+    "type": "Reel",
+    "bpm": 113,
+    "audio": "audio/reel-around-the-sun.mp3"
+  },
+  {
+    "id": "pachelbels-reel",
+    "title": "Pachelbel's Reel",
+    "aliases": [
+      "Pachelbels reel",
+      "pachelbels"
+    ],
+    "modern": false,
+    "type": "Reel",
+    "bpm": 113,
+    "audio": "audio/pachelbels.mp3"
+  },
+  {
+    "id": "stolen-kiss",
+    "title": "Stolen Kiss",
+    "aliases": [
+      "Stolen"
+    ],
+    "modern": false,
+    "type": "Slip Jig",
+    "bpm": 113,
+    "audio": "audio/stolen-kiss.mp3"
+  },
+  {
+    "id": "row-at-the-fleadh",
+    "title": "Row at the Fleadh",
+    "aliases": [
+      "Fleadh"
+    ],
+    "modern": false,
+    "type": "Reel",
+    "bpm": 113,
+    "audio": "audio/row-fleadh.mp3"
+  },
+  {
+    "id": "joe-burke",
+    "title": "Planxty Joe Burke",
+    "aliases": [
+      "Joe Burke",
+      "Planxty Joe"
+    ],
+    "modern": false,
+    "type": "Hornpipe",
+    "bpm": 113,
+    "audio": "audio/joe-burke.mp3"
+  }
+]
