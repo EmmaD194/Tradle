@@ -55,6 +55,7 @@ let leadCorrect = false;
 let setAnswered = false;
 let setCorrect = false;
 
+let fullTunePlaying = false;
 // ---------------------------------
 // AUDIO
 // ---------------------------------
@@ -105,6 +106,9 @@ const setOptions = document.getElementById("setOptions");
 const setFeedback = document.getElementById("setFeedback");
 
 const bonusSummary = document.getElementById("bonusSummary");
+
+const fullTuneButton =
+    document.getElementById("fullTuneButton");
 
 // ---------------------------------
 // LOAD THE TUNE LIBRARY
@@ -206,6 +210,13 @@ function startNewGame() {
 
     results.classList.add("hidden");
     newGameButton.classList.add("hidden");
+
+    fullTunePlaying = false;
+
+fullTuneButton.classList.add("hidden");
+
+fullTuneButton.textContent =
+    "▶ Hear the rest of the tune";
 
     resultHeading.textContent = "";
     answerText.textContent = "";
@@ -365,6 +376,66 @@ function stopAudio() {
             currentAttempt === 1
                 ? "▶ Play clip"
                 : "▶ Replay clip";
+    }
+}
+
+async function toggleFullTune() {
+    if (!currentTune || !gameFinished) {
+        return;
+    }
+
+    /*
+     * If it is already playing, clicking the button pauses it.
+     */
+    if (fullTunePlaying) {
+        audio.pause();
+
+        fullTunePlaying = false;
+
+        fullTuneButton.textContent =
+            "▶ Continue listening";
+
+        return;
+    }
+
+    try {
+        await waitForAudioMetadata();
+
+        /*
+         * Normally this will already have been chosen when
+         * the player listened to the clue.
+         */
+        if (clipStartTime === null) {
+            chooseRandomClipStart();
+        }
+
+        /*
+         * Only return to the clue's starting point when
+         * beginning full playback for the first time.
+         *
+         * After pausing, it continues from where it stopped.
+         */
+        if (
+            audio.currentTime < clipStartTime ||
+            audio.currentTime >= audio.duration
+        ) {
+            audio.currentTime = clipStartTime;
+        }
+
+        await audio.play();
+
+        fullTunePlaying = true;
+
+        fullTuneButton.textContent =
+            "⏸ Pause tune";
+    } catch (error) {
+        console.error(
+            "The full tune could not be played:",
+            error
+        );
+
+        fullTuneButton.textContent =
+            "Audio could not be played";
     }
 }
 
@@ -703,6 +774,8 @@ function finishMainGame(playerWon) {
     guessButton.disabled = true;
     playButton.disabled = true;
 
+    
+
     results.classList.remove("hidden");
 
     if (playerWon) {
@@ -719,6 +792,8 @@ function finishMainGame(playerWon) {
         answerText.textContent =
             `The tune was “${currentTune.title}”.`;
 
+        fullTuneButton.classList.remove("hidden");
+
         startBonusRound();
         return;
     }
@@ -731,6 +806,8 @@ function finishMainGame(playerWon) {
 
     answerText.textContent =
         `The answer was “${currentTune.title}”.`;
+
+    fullTuneButton.classList.add("hidden");    
 
     bonusRound.classList.add("hidden");
     newGameButton.classList.remove("hidden");
@@ -1348,6 +1425,11 @@ function resetAttemptBars() {
 // EVENT LISTENERS
 // ---------------------------------
 
+fullTuneButton.addEventListener(
+    "click",
+    toggleFullTune
+);
+
 playButton.addEventListener(
     "click",
     playCurrentClip
@@ -1440,7 +1522,12 @@ document.addEventListener(
 audio.addEventListener(
     "ended",
     () => {
-        if (!gameFinished) {
+        if (fullTunePlaying) {
+            fullTunePlaying = false;
+
+            fullTuneButton.textContent =
+                "↻ Play again from the clue";
+        } else if (!gameFinished) {
             playButton.textContent =
                 "▶ Replay clip";
         }
