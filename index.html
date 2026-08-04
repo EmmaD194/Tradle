@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Tradle — listen to an Irish traditional tune and guess its name."
+    >
+
+    <title>Tradle</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <h1>Tradle</h1>
+
+            <p class="subtitle">
+                Listen to the clip and name the tune.
+            </p>
+        </header>
+
+        <section class="game-card">
+            <div
+                class="attempt-bars"
+                id="attemptBars"
+                aria-label="Attempts"
+            >
+                <span class="attempt-bar active"></span>
+                <span class="attempt-bar"></span>
+                <span class="attempt-bar"></span>
+                <span class="attempt-bar"></span>
+                <span class="attempt-bar"></span>
+            </div>
+
+            <p id="clipText" class="clip-text">
+                Your clip is 1 second long
+            </p>
+
+            <button
+                id="playButton"
+                class="primary-button play-button"
+                type="button"
+            >
+                ▶ Play clip
+            </button>
+
+            <form id="guessForm" class="guess-area">
+                <div class="autocomplete">
+                    <label
+                        class="visually-hidden"
+                        for="guessInput"
+                    >
+                        Tune name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="guessInput"
+                        placeholder="Enter the tune name..."
+                        autocomplete="off"
+                        autocapitalize="words"
+                        spellcheck="false"
+                        aria-autocomplete="list"
+                        aria-controls="suggestions"
+                        aria-expanded="false"
+                    >
+
+                    <div
+                        id="suggestions"
+                        class="suggestions hidden"
+                        role="listbox"
+                    ></div>
+                </div>
+
+                <button
+                    id="guessButton"
+                    class="secondary-button"
+                    type="submit"
+                >
+                    Guess
+                </button>
+            </form>
+
+            <p id="attemptText" class="attempt-text">
+                Attempt 1 of 5
+            </p>
+
+            <p
+                id="message"
+                class="message"
+                aria-live="polite"
+            ></p>
+
+            <section
+                id="results"
+                class="results hidden"
+            >
+                <h2 id="resultHeading"></h2>
+
+                <p id="answerText"></p>
+
+                <section
+                    id="bonusRound"
+                    class="bonus-round hidden"
+                >
+                    <div
+                        id="timingRound"
+                        class="bonus-step"
+                    >
+                        <h3>Bonus round</h3>
+
+                        <p>
+                            What timing is this tune?
+                        </p>
+
+                        <div
+                            id="timingOptions"
+                            class="bonus-options"
+                        ></div>
+
+                        <p
+                            id="timingFeedback"
+                            class="bonus-feedback"
+                            aria-live="polite"
+                        ></p>
+                    </div>
+
+                    <div
+                        id="bpmRound"
+                        class="bonus-step hidden"
+                    >
+                        <h3>Bonus bonus round</h3>
+
+                        <p>
+                            What speed is this recording?
+                        </p>
+
+                        <div
+                            id="bpmOptions"
+                            class="bonus-options"
+                        ></div>
+
+                        <p
+                            id="bpmFeedback"
+                            class="bonus-feedback"
+                            aria-live="polite"
+                        ></p>
+                    </div>
+
+                    <div
+    id="leadRound"
+    class="bonus-step hidden"
+>
+    <h3>Traditional set bonus</h3>
+
+    <p>
+        How many bars are in the lead?
+    </p>
+
+    <div
+        id="leadOptions"
+        class="bonus-options"
+    ></div>
+
+    <p
+        id="leadFeedback"
+        class="bonus-feedback"
+        aria-live="polite"
+    ></p>
+</div>
+
+<div
+    id="setRound"
+    class="bonus-step hidden"
+>
+    <h3>Final bonus</h3>
+
+    <p>
+        How many bars are in the set?
+    </p>
+
+    <div
+        id="setOptions"
+        class="bonus-options"
+    ></div>
+
+    <p
+        id="setFeedback"
+        class="bonus-feedback"
+        aria-live="polite"
+    ></p>
+</div>
+
+                    <p
+                        id="bonusSummary"
+                        class="bonus-summary hidden"
+                    ></p>
+                </section>
+
+                <button
+                    id="newGameButton"
+                    class="primary-button hidden"
+                    type="button"
+                >
+                    Play another tune
+                </button>
+            </section>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
