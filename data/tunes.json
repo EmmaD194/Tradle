@@ -364,5 +364,211 @@
     "type": "Hornpipe",
     "bpm": 113,
     "audio": "audio/joe-burke.mp3"
+  },
+  {
+    "id": "blue-eyed-rascal",
+    "title": "Blue Eyed Rascal",
+    "aliases": [],
+    "modern": true,
+    "type": "Hornpipe",
+    "bpm": 108,
+    "lead": 8,
+    "set": 12,
+    "audio": "audio/blue-eyed-rascal-108.mp3"
+  },
+  {
+    "id": "bonapartes-retreat",
+    "title": "Bonaparte's Retreat",
+    "aliases": [],
+    "modern": true,
+    "type": "Hornpipe",
+    "bpm": 108,
+    "lead": 8,
+    "set": 20,
+    "audio": "audio/bonapartes-retreat-108.mp3"
+  },
+  {
+    "id": "four-masters",
+    "title": "Four Masters",
+    "aliases": [],
+    "modern": true,
+    "type": "Hornpipe",
+    "bpm": 108,
+    "lead": 8,
+    "set": 12,
+    "audio": "audio/four-masters-108.mp3"
+  },
+  {
+    "id": "lodge-road",
+    "title": "Lodge Road",
+    "aliases": [],
+    "modern": true,
+    "type": "Hornpipe",
+    "bpm": 108,
+    "lead": 8,
+    "set": 20,
+    "audio": "audio/lodge-road-108.mp3"
+  },
+  {
+    "id": "madame-bonaparte",
+    "title": "Madame Bonaparte",
+    "aliases": [],
+    "modern": true,
+    "type": "Hornpipe",
+    "bpm": 108,
+    "lead": 8,
+    "set": 12,
+    "audio": "audio/madame-bonaparte-108.mp3"
+  },
+  {
+    "id": "rambling-rake",
+    "title": "Rambling Rake",
+    "aliases": [],
+    "modern": true,
+    "type": "Hornpipe",
+    "bpm": 108,
+    "lead": 8,
+    "set": 16,
+    "audio": "audio/rambling-rake-108.mp3"
+  },
+  {
+    "id": "rodneys-glory",
+    "title": "Rodney's Glory",
+    "aliases": [],
+    "modern": true,
+    "type": "Hornpipe",
+    "bpm": 108,
+    "lead": 8,
+    "set": 12,
+    "audio": "audio/rodneys-glory-108.mp3"
+  },
+  {
+    "id": "roving-peddler",
+    "title": "Roving Peddler",
+    "aliases": ["Roving Pedlar"],
+    "modern": true,
+    "type": "Hornpipe",
+    "bpm": 108,
+    "lead": 8,
+    "set": 14,
+    "audio": "audio/roving-pedlar-108.mp3"
+  },
+  {
+    "id": "deep-green-pool",
+    "title": "Deep Green Pool",
+    "aliases": [],
+    "modern": true,
+    "type": "Jig",
+    "bpm": 70,
+    "lead": 8,
+    "set": 20,
+    "audio": "audio/deep-green-pool-70.mp3"
+  },
+  {
+    "id": "drunken-gauger",
+    "title": "Drunken Gauger",
+    "aliases": ["Drunken Tailor", "Funny Tailor"],
+    "modern": true,
+    "type": "Jig",
+    "bpm": 70,
+    "lead": 15,
+    "set": 15,
+    "audio": "audio/drunken-gauger-70.mp3"
+  },
+  {
+    "id": "fiddler-around-the-fairytree",
+    "title": "Fiddler Around the Fairytree",
+    "aliases": ["Fiddler", "Fiddler round the fairy tree"],
+    "modern": true,
+    "type": "Jig",
+    "bpm": 70,
+    "lead": 8,
+    "set": 12,
+    "audio": "audio/fiddler-around-the-fairytree-70.mp3"
+  },
+  {
+    "id": "hurling-boys",
+    "title": "Hurling Boys",
+    "aliases": [],
+    "modern": true,
+    "type": "Jig",
+    "bpm": 70,
+    "lead": 8,
+    "set": 14,
+    "audio": "audio/hurling-boys-70.mp3"
+  },
+  {
+    "id": "hurry-the-jug",
+    "title": "Hurry the Jug",
+    "aliases": [],
+    "modern": true,
+    "type": "Jig",
+    "bpm": 70,
+    "lead": 8,
+    "set": 16,
+    "audio": "audio/hurry-the-jug.mp3"
+  },
+  {
+    "id": "miss-browns-fancy",
+    "title": "Miss Brown's Fancy",
+    "aliases": ["Ms Browns's Fancy", "Ms Brown's Fancy", "Miss Browns Fancy"],
+    "modern": true,
+    "type": "Jig",
+    "bpm": 69,
+    "lead": 8,
+    "set": 16,
+    "audio": "audio/miss-browns-fancy-69.mp3"
+  },
+  
+  {
+    "id": "sprig-of-shillelagh",
+    "title": "Sprig of Shillelagh",
+    "aliases": [],
+    "modern": true,
+    "type": "Jig",
+    "bpm": 69,
+    "lead": 6,
+    "set": 10,
+    "audio": "audio/sprig-of-shillelagh-69.mp3"
+  },
+  {
+    "id": "storyteller",
+    "title": "Storyteller",
+    "aliases": [],
+    "modern": true,
+    "type": "Jig",
+    "bpm": 70,
+    "lead": 8,
+    "set": 16,
+    "audio": "audio/storyteller-70.mp3"
+  },
+  {
+    "id": "wandering-musician",
+    "title": "Wandering Musician",
+    "aliases": [],
+    "modern": true,
+    "type": "Jig",
+    "bpm": 71,
+    "lead": 8,
+    "set": 16,
+    "audio": "audio/wandering-musician-71.mp3"
+  },
+  {
+    "id": "trip-to-the-cottage",
+    "title": "Trip to the Cottage",
+    "aliases": [],
+    "modern": false,
+    "type": "Jig",
+    "bpm": 113,
+    "audio": "audio/trip-to-the-cottage.mp3"
+  },
+  {
+    "id": "sweets-of-may",
+    "title": "Sweets of May",
+    "aliases": ["The Sweets of May"],
+    "modern": false,
+    "type": "Single jig",
+    "bpm": 113,
+    "audio": "audio/sweets-of-may.mp3"
   }
 ]
